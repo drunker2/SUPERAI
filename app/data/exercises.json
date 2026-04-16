@@ -1,0 +1,130 @@
+{
+  "exercises": [
+    {"id": "squat", "name": "深蹲", "category": "腿部", "type": "compound", "difficulty": "beginner", "muscles": ["股四头肌", "臀大肌", "腘绳肌"], "equipment": "无器械"},
+    {"id": "leg_press", "name": "腿举", "category": "腿部", "type": "compound", "difficulty": "beginner", "muscles": ["股四头肌", "臀大肌"], "equipment": "器械"},
+    {"id": "lunge", "name": "弓步蹲", "category": "腿部", "type": "compound", "difficulty": "beginner", "muscles": ["股四头肌", "臀大肌"], "equipment": "无器械"},
+    {"id": "leg_extension", "name": "腿屈伸", "category": "腿部", "type": "isolation", "difficulty": "beginner", "muscles": ["股四头肌"], "equipment": "器械"},
+    {"id": "leg_curl", "name": "腿弯举", "category": "腿部", "type": "isolation", "difficulty": "beginner", "muscles": ["腘绳肌"], "equipment": "器械"},
+    {"id": "calf_raise", "name": "提踵", "category": "腿部", "type": "isolation", "difficulty": "beginner", "muscles": ["小腿"], "equipment": "无器械"},
+
+    {"id": "bench_press", "name": "卧推", "category": "胸部", "type": "compound", "difficulty": "intermediate", "muscles": ["胸大肌", "三角肌前束", "肱三头肌"], "equipment": "杠铃"},
+    {"id": "dumbbell_fly", "name": "哑铃飞鸟", "category": "胸部", "type": "isolation", "difficulty": "beginner", "muscles": ["胸大肌"], "equipment": "哑铃"},
+    {"id": "incline_press", "name": "上斜卧推", "category": "胸部", "type": "compound", "difficulty": "intermediate", "muscles": ["胸大肌上束"], "equipment": "杠铃"},
+    {"id": "push_up", "name": "俯卧撑", "category": "胸部", "type": "compound", "difficulty": "beginner", "muscles": ["胸大肌", "三角肌前束"], "equipment": "无器械"},
+    {"id": "cable_fly", "name": "绳索夹胸", "category": "胸部", "type": "isolation", "difficulty": "intermediate", "muscles": ["胸大肌"], "equipment": "绳索"},
+
+    {"id": "lat_pulldown", "name": "高位下拉", "category": "背部", "type": "compound", "difficulty": "beginner", "muscles": ["背阔肌", "肱二头肌"], "equipment": "器械"},
+    {"id": "deadlift", "name": "硬拉", "category": "背部", "type": "compound", "difficulty": "advanced", "muscles": ["背阔肌", "竖脊肌", "臀大肌", "腘绳肌"], "equipment": "杠铃"},
+    {"id": "barbell_row", "name": "杠铃划船", "category": "背部", "type": "compound", "difficulty": "intermediate", "muscles": ["背阔肌", "菱形肌"], "equipment": "杠铃"},
+    {"id": "dumbbell_row", "name": "哑铃划船", "category": "背部", "type": "compound", "difficulty": "beginner", "muscles": ["背阔肌"], "equipment": "哑铃"},
+    {"id": "seated_row", "name": "坐姿划船", "category": "背部", "type": "compound", "difficulty": "beginner", "muscles": ["背阔肌", "菱形肌"], "equipment": "器械"},
+    {"id": "pull_up", "name": "引体向上", "category": "背部", "type": "compound", "difficulty": "intermediate", "muscles": ["背阔肌", "肱二头肌"], "equipment": "单杠"},
+
+    {"id": "shoulder_press", "name": "肩推", "category": "肩部", "type": "compound", "difficulty": "intermediate", "muscles": ["三角肌", "肱三头肌"], "equipment": "哑铃"},
+    {"id": "lateral_raise", "name": "侧平举", "category": "肩部", "type": "isolation", "difficulty": "beginner", "muscles": ["三角肌中束"], "equipment": "哑铃"},
+    {"id": "front_raise", "name": "前平举", "category": "肩部", "type": "isolation", "difficulty": "beginner", "muscles": ["三角肌前束"], "equipment": "哑铃"},
+    {"id": "face_pull", "name": "面拉", "category": "肩部", "type": "isolation", "difficulty": "intermediate", "muscles": ["三角肌后束", "菱形肌"], "equipment": "绳索"},
+
+    {"id": "bicep_curl", "name": "二头弯举", "category": "手臂", "type": "isolation", "difficulty": "beginner", "muscles": ["肱二头肌"], "equipment": "哑铃"},
+    {"id": "hammer_curl", "name": "锤式弯举", "category": "手臂", "type": "isolation", "difficulty": "beginner", "muscles": ["肱二头肌", "肱肌"], "equipment": "哑铃"},
+    {"id": "tricep_pushdown", "name": "三头下压", "category": "手臂", "type": "isolation", "difficulty": "beginner", "muscles": ["肱三头肌"], "equipment": "绳索"},
+    {"id": "dip", "name": "双杠臂屈伸", "category": "手臂", "type": "compound", "difficulty": "intermediate", "muscles": ["肱三头肌", "胸大肌下束"], "equipment": "双杠"},
+
+    {"id": "plank", "name": "平板支撑", "category": "核心", "type": "isometric", "difficulty": "beginner", "muscles": ["腹直肌", "腹横肌"], "equipment": "无器械"},
+    {"id": "crunch", "name": "卷腹", "category": "核心", "type": "isolation", "difficulty": "beginner", "muscles": ["腹直肌"], "equipment": "无器械"},
+    {"id": "russian_twist", "name": "俄罗斯转体", "category": "核心", "type": "isolation", "difficulty": "beginner", "muscles": ["腹斜肌"], "equipment": "无器械"},
+    {"id": "leg_raise", "name": "悬垂举腿", "category": "核心", "type": "isolation", "difficulty": "intermediate", "muscles": ["腹直肌下束"], "equipment": "单杠"},
+    {"id": "dead_bug", "name": "死虫式", "category": "核心", "type": "isometric", "difficulty": "beginner", "muscles": ["腹横肌", "腹直肌"], "equipment": "无器械"},
+
+    {"id": "running", "name": "跑步", "category": "有氧", "type": "cardio", "difficulty": "beginner", "muscles": ["全身"], "equipment": "无器械"},
+    {"id": "cycling", "name": "骑行", "category": "有氧", "type": "cardio", "difficulty": "beginner", "muscles": ["腿部"], "equipment": "单车"},
+    {"id": "jump_rope", "name": "跳绳", "category": "有氧", "type": "cardio", "difficulty": "beginner", "muscles": ["全身"], "equipment": "跳绳"},
+    {"id": "burpee", "name": "波比跳", "category": "有氧", "type": "cardio", "difficulty": "intermediate", "muscles": ["全身"], "equipment": "无器械"},
+    {"id": "mountain_climber", "name": "登山跑", "category": "有氧", "type": "cardio", "difficulty": "beginner", "muscles": ["核心", "肩部"], "equipment": "无器械"},
+    {"id": "hiit_circuit", "name": "HIIT循环", "category": "有氧", "type": "cardio", "difficulty": "intermediate", "muscles": ["全身"], "equipment": "无器械"}
+  ],
+
+  "goals": {
+    "减脂": {
+      "description": "降低体脂率，改善体型",
+      "focus": ["有氧", "全身复合动作"],
+      "rep_range": [12, 20],
+      "rest_time": 30,
+      "cardio_ratio": 0.4
+    },
+    "增肌": {
+      "description": "增加肌肉量，提高力量",
+      "focus": ["复合动作", "渐进超负荷"],
+      "rep_range": [8, 12],
+      "rest_time": 90,
+      "cardio_ratio": 0.1
+    },
+    "塑形": {
+      "description": "改善肌肉线条，提升体态",
+      "focus": ["孤立动作", "核心训练"],
+      "rep_range": [12, 15],
+      "rest_time": 60,
+      "cardio_ratio": 0.2
+    }
+  },
+
+  "levels": {
+    "初级": {
+      "description": "健身经验少于6个月",
+      "weekly_frequency": [3, 4],
+      "exercises_per_day": 5,
+      "use_advanced": false
+    },
+    "中级": {
+      "description": "健身经验6个月-2年",
+      "weekly_frequency": [4, 5],
+      "exercises_per_day": 6,
+      "use_advanced": true
+    },
+    "高级": {
+      "description": "健身经验超过2年",
+      "weekly_frequency": [5, 6],
+      "exercises_per_day": 7,
+      "use_advanced": true
+    }
+  },
+
+  "templates": {
+    "减脂_初级": {
+      "day_structure": ["全身训练", "有氧", "全身训练", "休息", "全身训练", "有氧", "休息"],
+      "exercises": ["squat", "push_up", "lunge", "plank", "jump_rope", "running"]
+    },
+    "减脂_中级": {
+      "day_structure": ["上肢+有氧", "下肢+有氧", "休息", "上肢+有氧", "下肢+有氧", "HIIT", "休息"],
+      "exercises": ["bench_press", "lat_pulldown", "shoulder_press", "squat", "deadlift", "burpee", "hiit_circuit"]
+    },
+    "减脂_高级": {
+      "day_structure": ["推类", "拉类", "腿+有氧", "推类", "拉类", "腿+有氧", "休息"],
+      "exercises": ["bench_press", "incline_press", "tricep_pushdown", "deadlift", "barbell_row", "pull_up", "squat", "leg_press", "running"]
+    },
+    "增肌_初级": {
+      "day_structure": ["全身训练", "休息", "全身训练", "休息", "全身训练", "休息", "休息"],
+      "exercises": ["squat", "bench_press", "barbell_row", "shoulder_press", "bicep_curl"]
+    },
+    "增肌_中级": {
+      "day_structure": ["胸+三头", "背+二头", "休息", "腿", "肩+腹", "休息", "休息"],
+      "exercises": ["bench_press", "incline_press", "dumbbell_fly", "tricep_pushdown", "lat_pulldown", "barbell_row", "bicep_curl", "squat", "leg_press", "shoulder_press", "lateral_raise", "plank"]
+    },
+    "增肌_高级": {
+      "day_structure": ["胸", "背", "腿", "肩", "手臂", "休息", "休息"],
+      "exercises": ["bench_press", "incline_press", "dumbbell_fly", "cable_fly", "deadlift", "barbell_row", "lat_pulldown", "pull_up", "squat", "leg_press", "leg_curl", "calf_raise", "shoulder_press", "lateral_raise", "face_pull", "bicep_curl", "hammer_curl", "tricep_pushdown", "dip"]
+    },
+    "塑形_初级": {
+      "day_structure": ["全身塑形", "有氧", "核心训练", "休息", "全身塑形", "有氧", "休息"],
+      "exercises": ["squat", "lunge", "push_up", "plank", "crunch", "running"]
+    },
+    "塑形_中级": {
+      "day_structure": ["上肢塑形", "下肢塑形", "核心+有氧", "上肢塑形", "下肢塑形", "核心+有氧", "休息"],
+      "exercises": ["shoulder_press", "lateral_raise", "lat_pulldown", "seated_row", "squat", "lunge", "leg_extension", "plank", "crunch", "russian_twist", "cycling"]
+    },
+    "塑形_高级": {
+      "day_structure": ["胸+肩", "背+手臂", "腿+臀", "核心", "有氧", "全身综合", "休息"],
+      "exercises": ["bench_press", "dumbbell_fly", "shoulder_press", "lateral_raise", "lat_pulldown", "barbell_row", "bicep_curl", "tricep_pushdown", "squat", "lunge", "leg_curl", "calf_raise", "plank", "crunch", "leg_raise", "dead_bug", "hiit_circuit", "jump_rope"]
+    }
+  }
+}
