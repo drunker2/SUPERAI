@@ -1,0 +1,82 @@
+# 意图识别测试集
+# 覆盖所有意图类型
+
+test_cases:
+  # 健身咨询
+  - query: "怎么练腹肌最快"
+    expected_intent: fitness_consult
+
+  - query: "新手应该怎么开始健身"
+    expected_intent: fitness_consult
+
+  - query: "跑步和游泳哪个减肥效果好"
+    expected_intent: fitness_consult
+
+  # 训练计划请求
+  - query: "帮我制定一个减脂计划"
+    expected_intent: plan_request
+
+  - query: "我想增肌，每周练3次"
+    expected_intent: plan_request
+
+  - query: "给我一个新手健身计划"
+    expected_intent: plan_request
+
+  # 身体指标计算
+  - query: "我身高175体重70，算一下BMI"
+    expected_intent: body_metrics
+
+  - query: "我的基础代谢是多少"
+    expected_intent: body_metrics
+
+  - query: "帮我算一下体脂率"
+    expected_intent: body_metrics
+
+  # 营养咨询
+  - query: "蛋白粉有用吗"
+    expected_intent: nutrition_consult
+
+  - query: "健身期间怎么吃"
+    expected_intent: nutrition_consult
+
+  - query: "减脂应该控制多少热量"
+    expected_intent: nutrition_consult
+
+  # 动作指导
+  - query: "深蹲的标准姿势是什么"
+    expected_intent: exercise_guide
+
+  - query: "卧推怎么做才正确"
+    expected_intent: exercise_guide
+
+  - query: "硬拉的动作要领"
+    expected_intent: exercise_guide
+
+  # 数据记录
+  - query: "今天跑了5公里，帮我记录一下"
+    expected_intent: data_record
+
+  - query: "记录一下我的卧推数据"
+    expected_intent: data_record
+
+  - query: "我今天练了1小时"
+    expected_intent: data_record
+
+  # 闲聊
+  - query: "你好"
+    expected_intent: chitchat
+
+  - query: "今天天气怎么样"
+    expected_intent: chitchat
+
+  - query: "谢谢"
+    expected_intent: chitchat
+
+  # 边界测试 - 模糊输入
+  - query: "那个...就是...健身"
+    expected_intent: unknown
+    description: "模糊输入应识别为 unknown"
+
+  - query: "随便说说"
+    expected_intent: unknown
+    description: "无明确意图应识别为 unknown"
